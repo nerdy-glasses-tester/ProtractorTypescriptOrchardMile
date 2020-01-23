@@ -1,4 +1,4 @@
-This a protractor typescript with cucumber framework used to test AngularJS ecommerce store www.orchardmile.com.
+This is a protractor typescript framework with cucumber. It is used to test the AngularJS ecommerce store www.orchardmile.com.
 Type in terminal tsc to translates the typescript to javascript.
 Then type in terminal npm run cucumbertest to run all tests and generate a cucumber report.
 
