@@ -1,0 +1,810 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "As a customer, I want to browse and search for products on the OrchardMile ecommerce webapp store, so I can add them to the shopping cart.",
+    "line": 1,
+    "id": "as-a-customer,-i-want-to-browse-and-search-for-products-on-the-orchardmile-ecommerce-webapp-store,-so-i-can-add-them-to-the-shopping-cart.",
+    "tags": [],
+    "uri": "Features/orchardmile.feature",
+    "elements": [
+      {
+        "id": "as-a-customer,-i-want-to-browse-and-search-for-products-on-the-orchardmile-ecommerce-webapp-store,-so-i-can-add-them-to-the-shopping-cart.;able-to-add-a-product-to-cart",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Able to add a product to cart",
+        "tags": [
+          {
+            "name": "@AddtoCart",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I hover over the accessories category and click on the keychains subcategory link",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:267"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I select a product from the category page",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:274"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 396000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "is taken to the product details page and I click on add to bag",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:279"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4859000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the product is added to my bag page and it will display with the same brand, product, price, and quantity",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:299"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 231000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the subtotal will be tallied correctly",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:335"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3108000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-customer,-i-want-to-browse-and-search-for-products-on-the-orchardmile-ecommerce-webapp-store,-so-i-can-add-them-to-the-shopping-cart.;search-for-products",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Search for products",
+        "tags": [
+          {
+            "name": "@Search",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I will click search field",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I enter \"Wallet\"",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the search results returned will display \"Wallet\" products",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-customer,-i-want-to-browse-and-search-for-products-on-the-orchardmile-ecommerce-webapp-store,-so-i-can-add-them-to-the-shopping-cart.;search-for-products",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Search for products",
+        "tags": [
+          {
+            "name": "@Search",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I will click search field",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I enter \"Sneakers\"",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4880000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the search results returned will display \"Sneakers\" products",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-customer,-i-want-to-browse-and-search-for-products-on-the-orchardmile-ecommerce-webapp-store,-so-i-can-add-them-to-the-shopping-cart.;browse-by-category",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Browse by category",
+        "tags": [
+          {
+            "name": "@BrowseByCategory",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 27,
+            "name": "I will hover over a category header to bring up the subcategories popup",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3067000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I select a subcategory",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the products displayed will show \"Sandals\" name in the description text",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the left side menu will have the \"Shoes\" and the \"Sandals\" actively open",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the results page displayed will show the \"SANDALS\" header",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-customer,-i-want-to-browse-and-search-for-products-on-the-orchardmile-ecommerce-webapp-store,-so-i-can-add-them-to-the-shopping-cart.;filter-makeup-further-by-criteria",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Filter Makeup Further By Criteria",
+        "tags": [
+          {
+            "name": "@FilterByCriteria",
+            "line": 38
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "I hover over the beauty link and click on makeup link",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I scrolled down and check concealer and check Clinique from designers section",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9788000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the makeup product results will filter to display \"Clinique\" \"concealer\"",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-customer,-i-want-to-browse-and-search-for-products-on-the-orchardmile-ecommerce-webapp-store,-so-i-can-add-them-to-the-shopping-cart.;view-sale-items-that-are-50-percent-off",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "View sale items that are 50 percent off",
+        "tags": [
+          {
+            "name": "@Sale50PercentOff",
+            "line": 49
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "I clicked on sales category",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:231"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6909000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I scroll down and click on 50 percent off or more link to filter further",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:237"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "all products returned have prices that are 50 percent off or more",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:247"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3413000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-customer,-i-want-to-browse-and-search-for-products-on-the-orchardmile-ecommerce-webapp-store,-so-i-can-add-them-to-the-shopping-cart.;remove-product-from-cart",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "Remove product from cart",
+        "tags": [
+          {
+            "name": "@RemovefromCart",
+            "line": 56
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 59,
+            "name": "I add a keychain product and a haircare product to bag",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:355"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17784000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "I navigate to my bag and click to remove the haircare product",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:376"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "the product will be removed from my bag page",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:415"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "the total items will be retallied correctly",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:422"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "the subtotal will be retallied correctly",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:432"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5216000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "as-a-customer,-i-want-to-browse-and-search-for-products-on-the-orchardmile-ecommerce-webapp-store,-so-i-can-add-them-to-the-shopping-cart.;browse-by-designer",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "Browse by designer",
+        "tags": [
+          {
+            "name": "@BrowseByDesigner",
+            "line": 65
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "I hover over the designers link and click on View All",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3784000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "I click on Y link and the designer in the Y section",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:112"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4389000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "the designer products displayed will show \"Yumi Kim\" name in the description text",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "the results page displayed will show the \"Yumi Kim\" in the header",
+            "match": {
+              "location": "StepsDefinitions/steps.ts:131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepsDefinitions/hooks.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
